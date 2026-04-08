@@ -1,0 +1,27 @@
+# Vendor
+/vendor/
+/node_modules/
+
+# Composer
+composer.lock
+package-lock.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Configuration locale (ne pas versionner les mots de passe DB)
+config/database.php
+
+# CSS compilé
+public/css/*.css
+public/css/*.css.map
