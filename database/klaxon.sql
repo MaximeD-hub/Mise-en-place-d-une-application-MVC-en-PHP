@@ -70,7 +70,7 @@ CREATE TABLE `employe` (
 --
 
 INSERT INTO `employe` (`id_employe`, `nom`, `prenom`, `email`, `telephone`, `mot_de_passe`, `role`) VALUES
-(1, 'Martin', 'Alexandre', 'alexandre.martin@email.fr', '0612345678', '', 'user'),
+(1, 'Martin', 'Alexandre', 'alexandre.martin@email.fr', '0612345678', 'Password123!', 'user'),
 (2, 'Dubois', 'Sophie', 'sophie.dubois@email.fr', '0698765432', '', 'user'),
 (3, 'Bernard', 'Julien', 'julien.bernard@email.fr', '0622446688', '', 'user'),
 (4, 'Moreau', 'Camille', 'camille.moreau@email.fr', '0611223344', '', 'user'),
