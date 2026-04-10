@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : mer. 08 avr. 2026 à 09:13
+-- Généré le : ven. 10 avr. 2026 à 09:11
 -- Version du serveur : 10.4.32-MariaDB
 -- Version de PHP : 8.2.12
 
@@ -71,25 +71,26 @@ CREATE TABLE `employe` (
 
 INSERT INTO `employe` (`id_employe`, `nom`, `prenom`, `email`, `telephone`, `mot_de_passe`, `role`) VALUES
 (1, 'Martin', 'Alexandre', 'alexandre.martin@email.fr', '0612345678', 'Password123!', 'user'),
-(2, 'Dubois', 'Sophie', 'sophie.dubois@email.fr', '0698765432', '', 'user'),
-(3, 'Bernard', 'Julien', 'julien.bernard@email.fr', '0622446688', '', 'user'),
-(4, 'Moreau', 'Camille', 'camille.moreau@email.fr', '0611223344', '', 'user'),
-(5, 'Lefèvre', 'Lucie', 'lucie.lefevre@email.fr', '0777889900', '', 'user'),
-(6, 'Leroy', 'Thomas', 'thomas.leroy@email.fr', '0655443322', '', 'user'),
-(7, 'Roux', 'Chloé', 'chloe.roux@email.fr', '0633221199', '', 'user'),
-(8, 'Petit', 'Maxime', 'maxime.petit@email.fr', '0766778899', '', 'user'),
-(9, 'Garnier', 'Laura', 'laura.garnier@email.fr', '0688776655', '', 'user'),
-(10, 'Dupuis', 'Antoine', 'antoine.dupuis@email.fr', '0744556677', '', 'user'),
-(11, 'Lefebvre', 'Emma', 'emma.lefebvre@email.fr', '0699887766', '', 'user'),
-(12, 'Fontaine', 'Louis', 'louis.fontaine@email.fr', '0655667788', '', 'user'),
-(13, 'Chevalier', 'Clara', 'clara.chevalier@email.fr', '0788990011', '', 'user'),
-(14, 'Robin', 'Nicolas', 'nicolas.robin@email.fr', '0644332211', '', 'user'),
-(15, 'Gauthier', 'Marine', 'marine.gauthier@email.fr', '0677889922', '', 'user'),
-(16, 'Fournier', 'Pierre', 'pierre.fournier@email.fr', '0722334455', '', 'user'),
-(17, 'Girard', 'Sarah', 'sarah.girard@email.fr', '0688665544', '', 'user'),
-(18, 'Lambert', 'Hugo', 'hugo.lambert@email.fr', '0611223366', '', 'user'),
-(19, 'Masson', 'Julie', 'julie.masson@email.fr', '0733445566', '', 'user'),
-(20, 'Henry', 'Arthur', 'arthur.henry@email.fr', '0666554433', '', 'user');
+(2, 'Dubois', 'Sophie', 'sophie.dubois@email.fr', '0698765432', 'Password123!', 'user'),
+(3, 'Bernard', 'Julien', 'julien.bernard@email.fr', '0622446688', 'Password123!', 'user'),
+(4, 'Moreau', 'Camille', 'camille.moreau@email.fr', '0611223344', 'Password123!', 'user'),
+(5, 'Lefèvre', 'Lucie', 'lucie.lefevre@email.fr', '0777889900', 'Password123!', 'user'),
+(6, 'Leroy', 'Thomas', 'thomas.leroy@email.fr', '0655443322', 'Password123!', 'user'),
+(7, 'Roux', 'Chloé', 'chloe.roux@email.fr', '0633221199', 'Password123!', 'user'),
+(8, 'Petit', 'Maxime', 'maxime.petit@email.fr', '0766778899', 'Password123!', 'user'),
+(9, 'Garnier', 'Laura', 'laura.garnier@email.fr', '0688776655', 'Password123!', 'user'),
+(10, 'Dupuis', 'Antoine', 'antoine.dupuis@email.fr', '0744556677', 'Password123!', 'user'),
+(11, 'Lefebvre', 'Emma', 'emma.lefebvre@email.fr', '0699887766', 'Password123!', 'user'),
+(12, 'Fontaine', 'Louis', 'louis.fontaine@email.fr', '0655667788', 'Password123!', 'user'),
+(13, 'Chevalier', 'Clara', 'clara.chevalier@email.fr', '0788990011', 'Password123!', 'user'),
+(14, 'Robin', 'Nicolas', 'nicolas.robin@email.fr', '0644332211', 'Password123!', 'user'),
+(15, 'Gauthier', 'Marine', 'marine.gauthier@email.fr', '0677889922', 'Password123!', 'user'),
+(16, 'Fournier', 'Pierre', 'pierre.fournier@email.fr', '0722334455', 'Password123!', 'user'),
+(17, 'Girard', 'Sarah', 'sarah.girard@email.fr', '0688665544', 'Password123!', 'user'),
+(18, 'Lambert', 'Hugo', 'hugo.lambert@email.fr', '0611223366', 'Password123!', 'user'),
+(19, 'Masson', 'Julie', 'julie.masson@email.fr', '0733445566', 'Password123!', 'user'),
+(20, 'Henry', 'Arthur', 'arthur.henry@email.fr', '0666554433', 'Password123!', 'user'),
+(21, 'Admin', 'Super', 'admin@klaxon.fr', '0600000000', 'Admin123!', 'admin');
 
 -- --------------------------------------------------------
 
@@ -163,7 +164,7 @@ ALTER TABLE `agence`
 -- AUTO_INCREMENT pour la table `employe`
 --
 ALTER TABLE `employe`
-  MODIFY `id_employe` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `id_employe` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- AUTO_INCREMENT pour la table `trajet`
